@@ -1,0 +1,81 @@
+[
+  {
+    "item_name": "Chicken Manchurian",
+    "item_description": " this is description",
+    "item_price": 120,
+    "item_rating": 4.375
+  },
+  {
+    "item_name": "Veg manchurian",
+    "item_description": "this is description",
+    "item_price": 120,
+    "item_rating": 4.9
+  },
+  {
+    "item_description": "this is description",
+    " item_rating": 4.9,
+    "item_name": "Chicken Dum Biryani",
+    "item_price": 100
+  },
+  {
+    "item_description": "this is description",
+    " item_rating": 4.9,
+    "item_name": "Chicken Fry Biryani",
+    "item_price": 100
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Chicken Roll",
+    "item_price": 60
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Chicken Soupe",
+    "item_price": 30
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Veg Noodles",
+    "item_price": 80
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Chicken Fried Rice",
+    "item_price": 120
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Veg Fried Rice",
+    "item_price": 100
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Parota",
+    "item_price": 40
+  },
+
+  {
+    "item_description": "this is description",
+    "item_price": 100,
+    "item_name": "Chicken Noodles",
+    "item_rating": 4.9
+  },
+  {
+    "item_description": "this is description",
+    "item_price": 100,
+    "item_name": "Chicken Noodles",
+    "item_rating": 4.9
+  },
+  {
+    "item_description": "this is description",
+    "item_rating": 4.9,
+    "item_name": "Veg Soupe",
+    "item_price": 20
+  }
+]

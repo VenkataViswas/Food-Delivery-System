@@ -1,0 +1,26 @@
+.fixed-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  display: none;
+  /* Initially hide the buttons */
+}
+
+.fixed-buttons .btn {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .fixed-buttons {
+    display: flex;
+    /* Show the buttons on screens smaller than 768px */
+  }
+}
