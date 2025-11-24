@@ -1,0 +1,249 @@
+.marquee-container {
+  padding: 10px;
+  background-color: #f8d7da;
+  /* Red background color */
+}
+
+.product {
+  width: 18rem;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.product .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: #28a745;
+  /* Green text color */
+}
+
+.rating {
+  color: #ffc107;
+  /* Yellow text color */
+}
+
+.menu-item {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Menu.css */
+
+/* Navbar styles */
+/* .navbar {
+  background-color: #343a40;
+} */
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  cursor: pointer;
+  /* White text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+  /* Yellow text color on hover */
+}
+
+/* Search input styles */
+.form-control {
+  border-color: #28a745;
+  /* Green border color */
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  /* Yellow border color when focused */
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  /* Green shadow when focused */
+}
+
+/* Card styles */
+.card {
+  margin-bottom: 20px;
+  /* Spacing between cards */
+}
+
+.card-img-top {
+  height: 200px;
+  /* Set fixed height for card images */
+  object-fit: cover;
+  /* Ensure images cover the entire card */
+}
+
+.card-title {
+  font-weight: bold;
+  /* Bold font for card titles */
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  /* Light background color for card footer */
+}
+
+/* Cart section styles */
+.cart-container {
+  margin-top: 20px;
+  /* Spacing between cart section and items */
+}
+
+.cart-item {
+  margin-bottom: 10px;
+  /* Spacing between cart items */
+}
+
+.cart-item p {
+  margin-bottom: 5px;
+  /* Spacing between lines of cart item details */
+}
+
+.cart-total {
+  margin-top: 20px;
+  /* Spacing between cart items and total */
+  font-weight: bold;
+  /* Bold font for total */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  /* Dark background color for footer */
+  color: #ffffff;
+  /* White text color */
+  padding: 15px 0;
+  /* Padding inside footer */
+}
+
+.footer p {
+  margin-bottom: 0;
+  /* Remove bottom margin for paragraphs */
+}
+
+.manage-container {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.manage-heading {
+  text-align: center;
+  color: #333;
+}
+
+.manage-divider {
+  margin: 20px 0;
+}
+
+.manage-section {
+  margin-bottom: 30px;
+}
+
+.manage-subheading {
+  color: #666;
+}
+
+.order-history {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Custom styles for the payment form */
+.payment-form {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-form input[type="text"],
+.payment-form textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.payment-form input[type="text"]:focus,
+.payment-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.payment-form button[type="submit"] {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 18px;
+  padding:12px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.payment-form button[type="submit"]:hover {
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+.horizontal-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.horizontal-card .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.horizontal-card .no-gutters > .col,
+.horizontal-card .no-gutters > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.cart-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.cart-section h2 {
+  margin-bottom: 20px;
+}
+
+.cart-section p {
+  margin-bottom: 10px;
+}
+.bg-transparent{
+  margin-bottom: 15%;
+}
+.order-history {
+  max-height: 42vh;
+  overflow-y: auto;
+}
+@media screen and (max-width: 768px) {
+  .order-history {
+    max-height: 36vh;
+  }
+}
